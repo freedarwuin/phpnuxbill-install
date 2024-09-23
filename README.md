@@ -5,4 +5,4 @@ Instalador de phpnuxbill automatico desde un bash en Raspberry PI
 1. Raspberry PI (Cualquier version)
 2. Micro SD minimo 4GB
 3. Software Raspberry Pi Imagen la pueden descargar en la siguiente dirección: [Descargar aquí](https://www.raspberrypi.com/software/)
-   ![img.png](img.png)
+4. ![img.png](img.png)
