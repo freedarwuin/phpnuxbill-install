@@ -36,4 +36,9 @@ Actualizar Raspberry Pi.
 
 Instalamos GIT
     
-    apt install git
+    sudo apt install git
+
+Clonamos el repositorio:
+
+    clone git https://github.com/freedarwuin/phpnuxbill-install.git
+
