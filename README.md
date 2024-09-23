@@ -22,9 +22,9 @@ Ingresamos con el ususario
 
 Ingresamos como root y cambiamos la conrtaseña
 
-		sudo su passwd
+    sudo su passwd
 
 Actualizar Raspberry Pi.
 
-		sudo apt-get update
-		sudo apt-get upgrade
+    sudo apt-get update
+    sudo apt-get upgrade
