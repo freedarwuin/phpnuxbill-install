@@ -33,3 +33,7 @@ Actualizar Raspberry Pi.
 
     sudo apt-get update
     sudo apt-get upgrade
+
+Instalamos GIT
+    
+    apt install git
