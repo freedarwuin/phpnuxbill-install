@@ -9,10 +9,19 @@ Instalador de phpnuxbill automatico desde un bash en Raspberry PI
 
 ## Primeros pasos
 
-Instalar el sistema operativo Raspberry Pi en la Micro SD
-Preparamos la Micro SD
+1. Instalar el sistema operativo Raspberry Pi en la Micro SD
+2. Preparamos la Micro SD
+
 ![img_2.png](img_2.png)
+
 Le damos siguiente y esperamos que finalice la instalación del sistema operativo en la Micro SD
+3. Insertamos la Micro SD en la Raspberry Pi y esperamos que inicie el sistema operativo.
+![img_1.png](img_1.png)
+Ingresamos con el ususario
+
+Ingresamos como root y cambiamos la conrtaseña
+
+		sudo su passwd
 
 Actualizar Raspberry Pi.
 
