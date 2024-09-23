@@ -98,11 +98,11 @@ Run
 
 ## this will run every 4 hours
 
-    0 */4 * * * cd /path/to/phpnuxbill/system/ && php -f cron.php
+    0 */4 * * * cd /var/www/html/system/ && php -f cron.php
 
 # if you create hourly voucher, maybe you need to run every 5 minutes
 
-    */5 * * * * cd /path/to/phpnuxbill/system && php -f cron.php
+    */5 * * * * cd /var/www/html/system && php -f cron.php
 ## another example crontab.guru
 
 ## i dont know about windows, maybe using Scheduller, just search google
