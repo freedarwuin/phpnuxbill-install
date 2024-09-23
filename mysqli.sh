@@ -24,3 +24,5 @@ sudo service apache2 restart
 sudo apt install mariadb-server php-mysql
 sudo service apache2 restart
 
+rm -R index.html
+

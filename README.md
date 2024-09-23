@@ -67,9 +67,10 @@ Vamos al siguiente directorio:
 
 # Cambios en el archivo de configuracion de MYSQL para admitir conexiones remotas
     sudo nano /etc/mysql/mariadb.conf.d/50-server.cnf
-    Cambiar bind-address a 0.0.0.0
-    Aumentar ficheros de entrada en /etc/php/7.3/apache2/php.ini
-    max_execution_time = 3000
+
+## Cambiar bind-address a 0.0.0.0
+## Aumentar ficheros de entrada en /etc/php/8.2/apache2/php.ini
+## max_execution_time = 3000
     
 # Para aumentar el tamaño de datos POST:
     
@@ -80,3 +81,33 @@ Vamos al siguiente directorio:
     
 # Para aumentar el tiempo de datos de entrada
     max_input_time = 1000
+
+# Debian/Ubuntu
+    sudo apt install composer
+
+# install on curent directory
+
+    composer create-project hotspotbilling/phpnuxbill .
+
+# EXPIRED AND AUTO RENEWAL
+## Cronjob will execute expired customer, this is important
+
+Run
+
+    crontab -e
+
+## this will run every 4 hours
+
+    0 */4 * * * cd /path/to/phpnuxbill/system/ && php -f cron.php
+
+# if you create hourly voucher, maybe you need to run every 5 minutes
+
+    */5 * * * * cd /path/to/phpnuxbill/system && php -f cron.php
+## another example crontab.guru
+
+## i dont know about windows, maybe using Scheduller, just search google
+
+## REMINDER
+## This will send reminder for user every 7 AM
+
+    0 7 * * * cd /path/to/phpnuxbill/system && php -f cron_reminder.php
