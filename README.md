@@ -25,7 +25,7 @@ Sigue los siguientes pasos para cambiar tu contraseña del usuario root en tu se
 Accede a tu servidor e inicia sesión con el usuario root.
 Para cambiar la contraseña, introduce el siguiente comando desde un terminal:
    
-    suso passwd
+    sudo passwd
 Inserta la nueva contraseña y repítela para finalizar el proceso.
 La contraseña del usuario root se habrá cambiado.
 
