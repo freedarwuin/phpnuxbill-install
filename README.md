@@ -20,9 +20,14 @@ Le damos siguiente y esperamos que finalice la instalación del sistema operativ
 
 Ingresamos con el ususario
 
-Ingresamos como root y cambiamos la conrtaseña
+Sigue los siguientes pasos para cambiar tu contraseña del usuario root en tu servidor Linux (si conoces la actual):
 
-    sudo su passwd
+Accede a tu servidor e inicia sesión con el usuario root.
+Para cambiar la contraseña, introduce el siguiente comando desde un terminal:
+   
+    suso passwd
+Inserta la nueva contraseña y repítela para finalizar el proceso.
+La contraseña del usuario root se habrá cambiado.
 
 Actualizar Raspberry Pi.
 
