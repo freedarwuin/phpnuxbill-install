@@ -75,7 +75,7 @@ Vamos al siguiente directorio:
     
     post_max_size = 16M
     
-# Para aumentar el tamaÃ±o de archivo
+# Para aumentar el tamaño de archivo
     upload_max_filesize = 20M
     
 # Para aumentar el tiempo de datos de entrada
